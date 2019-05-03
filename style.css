@@ -1,0 +1,92 @@
+body {
+  background-color: #eeeeee;
+  font-family: 'Montserrat', sans-serif;
+  color: #bb8fa9;
+  line-height: 16px;
+}
+
+h1, h2 {
+  color: #62374e;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul, li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-yellow {
+  background-color: #ffc15e;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.margin-bottom {
+  margin-bottom: 32px;
+}
+
+.text-yellow {
+  color: #ffc15e;
+}
+
+@media (min-width: 961px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 24px auto;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 24px auto;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 24px auto;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 24px auto;
+    text-align: center;
+    text-decoration: none;
+  }
+}
